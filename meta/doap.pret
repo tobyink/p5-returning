@@ -8,7 +8,7 @@
 	:homepage             <https://metacpan.org/release/returning>;
 	:download-page        <https://metacpan.org/release/returning>;
 	:bug-database         <http://rt.cpan.org/Dist/Display.html?Queue=returning>;
-	:repository           [ a :HgRepository; :browse <https://bitbucket.org/tobyink/p5-returning> ];
+	:repository           [ a :GitRepository; :browse <https://github.com/tobyink/p5-returning> ];
 	:created              2012-08-01;
 	:license              <http://dev.perl.org/licenses/>;
 	:maintainer           cpan:TOBYINK;
