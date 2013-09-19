@@ -1,12 +1,9 @@
 # This file provides instructions for packaging.
 
 `returning`
-	perl_version_from m`returning`;
-	version_from      m`returning`;
-	readme_from       m`returning`;
-	requires          p`Scalar::Util 1.11`;
-	requires          p`Scope::Upper 0.16`;
-	requires          p`Sub::Install 0.900`;
-	requires          p`Sub::Name 0.03`;
-	test_requires     p`Test::More 0.61`.
-
+	deps:runtime-requirement     [ deps:on "Scalar::Util 1.11"^^deps:CpanId ];
+	deps:runtime-requirement     [ deps:on "Scope::Upper 0.16"^^deps:CpanId ];
+	deps:runtime-requirement     [ deps:on "Sub::Install 0.900"^^deps:CpanId ];
+	deps:runtime-requirement     [ deps:on "Sub::Name 0.03"^^deps:CpanId ];
+	deps:test-requirement        [ deps:on "Test::More 0.96"^^deps:CpanId ];
+	deps:develop-recommendation  [ deps:on "Dist::Inkt 0.012"^^deps:CpanId ].
