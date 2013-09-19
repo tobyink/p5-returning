@@ -6,7 +6,7 @@ no warnings;
 
 BEGIN {
 	$returning::AUTHORITY = 'cpan:TOBYINK';
-	$returning::VERSION   = '0.001';
+	$returning::VERSION   = '0.002';
 }
 
 use Carp            1.01    qw( croak );

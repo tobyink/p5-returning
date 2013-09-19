@@ -4,3 +4,12 @@
 	issued  2012-08-01;
 	label   "Initial release".
 
+`returning 0.002 cpan:TOBYINK`
+	issued  2013-09-19;
+	changeset [
+		item [
+			a dcs:Packaging;
+			label "Depend on Scope::Upper 0.24; required for Perl 5.19.4.";
+			dcs:thanks cpan:VPIT;
+		]
+	].
